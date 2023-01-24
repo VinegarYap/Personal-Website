@@ -1,0 +1,64 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2A2A2A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #717171;
+}
+
+body {
+    background-color: #2A2A2A;
+}
+
+.background-image {
+    background-image: url("../images/background_image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+i {
+    padding-right: 25px;
+}
+
+h1.title {
+    color: white;
+    font-family: 'Lobster';
+    font-weight: normal;
+}
+
+h2.subtitle {
+    color: white;
+}
+
+.is-pfp {
+    border-radius: 100%;
+    border: 2px solid white;
+    height: 15vh;
+  }
+
+.image.is-160x160 {
+    height: 160px;
+    width: 160px;
+  }
+
+.has-image-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.footer {
+    background-color:#2A2A2A!important;
+}
